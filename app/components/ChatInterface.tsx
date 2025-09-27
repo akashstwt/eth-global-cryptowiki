@@ -1,8 +1,10 @@
+"use client"
+
 import { useState } from "react";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Card } from "@/components/ui/card";
-import { Send, Bot, User, Zap, TrendingUp, Shield } from "lucide-react";
+import { Button } from "../components/ui/button";
+import { Input } from "../components/ui/input";
+import { Card } from "../components/ui/card";
+import { Send, Bot, User } from "lucide-react";
 
 interface Message {
   id: string;
