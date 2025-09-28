@@ -40,7 +40,7 @@ const ChatInterface = () => {
 
   const sendMessageToGemini = async (message: string, useStructuredPrompt: boolean = true): Promise<string> => {
     try {
-      const apiKey = "AIzaSyAlxEUr-CvEbRA5S9jC6RQrczL5_MLFBMU";
+      const apiKey = "AIzaSyAi0FONko59GtZIBrtEkFMFSriSc5ZrmBA";
       const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
       
       const promptText = useStructuredPrompt 
