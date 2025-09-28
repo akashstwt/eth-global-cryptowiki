@@ -4,7 +4,7 @@ import React from 'react';
 import Image from 'next/image';
 import { Search } from 'lucide-react';
 
-const Hero = () => {
+const Home = () => {
   return (
     <section className="min-h-screen bg-black flex flex-col items-center justify-center px-6 relative pt-32">
       {/* Video Section */}
@@ -72,4 +72,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Home;

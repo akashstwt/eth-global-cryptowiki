@@ -1,6 +1,6 @@
 import WalletConnect from "@/components/walletconnect";
 import Header from "@/components/Header";
-import Hero from "@/components/hero";
+import Hero from "@/components/Home";
 import ScrollFillText from "@/components/Test";
 import ProblemSolutions from "@/components/ProblemSolutions";
 import ChatInterface from "@/components/ChatInterface";
