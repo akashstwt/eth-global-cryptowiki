@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Enter an account name
 
-## Getting Started
+> Mikey 
 
-First, run the development server:
+Choose a network
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+> Emulator
+  Testnet
+  Mainnet
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Please note that the newly-created account will only be available while you keep the emulator service running. If you restart the emulator service, all accounts will be reset. If you want to persist accounts between restarts, please use the '--persist' flag when starting the flow emulator.
 
-## Learn More
+ New account created with address 0x179b6b1cb6755e31 and name Mikey on Emulator network.
 
-To learn more about Next.js, take a look at the following resources:
+Here’s a summary of all the actions that were taken:
+ - Added the new account to flow.json.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Address  0x179b6b1cb6755e31
+Balance  0.00100000
+Keys     1
 
-## Deploy on Vercel
+Key 0   Public Key               2eb5f12fa3db0efd82d130deba2a6ec0ae1a53fbd18336f2e8719f2aca945acfb5abcc88df44285cd29c2670183968a6e864c2f3ed1217bcab4ae5d9efcd5a36
+        Weight                   1000
+        Signature Algorithm      ECDSA_P256
+        Hash Algorithm           SHA3_256
+        Revoked                  false
+        Sequence Number          0
+        Index                    0
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Contracts Deployed: 0
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+Contracts (hidden, use --include contracts)
+
+PS C:\Users\akash\Desktop\New folder (3)\eth-global-cryptowiki\CryptoWiki>
+
