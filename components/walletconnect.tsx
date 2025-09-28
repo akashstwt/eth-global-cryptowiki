@@ -3,8 +3,10 @@
 import * as fcl from "@onflow/fcl";
 import { useEffect, useState } from "react";
 
+type FlowUser = fcl.CurrentUser | null;
+
 export default function WalletConnect() {
-  const [flowUser, setFlowUser] = useState<any>(null);
+  const [flowUser, setFlowUser] = useState<FlowUser>(null);
 
   useEffect(() => {
     // ✅ subscribe to Flow session

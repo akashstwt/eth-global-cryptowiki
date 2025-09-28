@@ -6,8 +6,10 @@ import * as fcl from "@onflow/fcl";
 import { useEffect, useState } from "react";
 import Image from 'next/image';
 
+type FlowUser = fcl.CurrentUser | null;
+
 const Header = () => {
-  const [flowUser, setFlowUser] = useState<any>(null);
+  const [flowUser, setFlowUser] = useState<FlowUser>(null);
 
   useEffect(() => {
     // ✅ subscribe to Flow session
